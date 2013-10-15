@@ -1,5 +1,11 @@
 Boa::Application.routes.draw do
 
+  resources :to_do_categories
+
+
+  resources :to_dos
+
+
   resources :contact_lists
 
 

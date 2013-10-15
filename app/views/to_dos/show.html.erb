@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @to_do.title %>
+</p>
+
+<p>
+  <b>Notes:</b>
+  <%= @to_do.notes %>
+</p>
+
+<p>
+  <b>Created by:</b>
+  <%= @to_do.created_by %>
+</p>
+
+<p>
+  <b>Completed by:</b>
+  <%= @to_do.completed_by %>
+</p>
+
+<p>
+  <b>Due date:</b>
+  <%= @to_do.due_date %>
+</p>
+
+<p>
+  <b>Assigned person:</b>
+  <%= @to_do.assigned_person %>
+</p>
+
+<p>
+  <b>Todo category:</b>
+  <%= @to_do.todo_category_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_to_do_path(@to_do) %> |
+<%= link_to 'Back', to_dos_path %>
