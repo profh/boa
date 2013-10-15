@@ -1,4 +1,3 @@
-class ToDoCategory < ActiveLdap::Base
-  ldap_mapping dn_attribute: "cn",
-               prefix: "ou=ToDoCategories"
+class ToDoCategory < ActiveRecord::Base
+  
 end
